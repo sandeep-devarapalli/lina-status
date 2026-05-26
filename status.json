@@ -1,11 +1,11 @@
 {
-  "generated_at": 1779827108,
-  "generated": "2026-05-27 01:55:08",
-  "overall": "fail",
-  "ok": 15,
+  "generated_at": 1779827293,
+  "generated": "2026-05-27 01:58:13",
+  "overall": "ok",
+  "ok": 16,
   "warn": 0,
-  "fail": 1,
-  "last_seen_utc": "2026-05-26T20:25:08Z",
+  "fail": 0,
+  "last_seen_utc": "2026-05-26T20:28:13Z",
   "stale_after_minutes": 20,
   "components": [
     {
@@ -95,8 +95,8 @@
     {
       "name": "lina-heartbeat",
       "label": "WhatsApp heartbeat",
-      "status": "fail",
-      "detail": "LaunchAgent state is not running, last exit code 1"
+      "status": "ok",
+      "detail": "Healthy."
     },
     {
       "name": "webhook-registration",
