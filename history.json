@@ -1,0 +1,340 @@
+{
+  "updated_at": 1779801785,
+  "updated": "2026-05-26 18:53:05",
+  "window_days": 90,
+  "samples": [
+    {
+      "generated_at": 1779801696,
+      "last_seen_utc": "2026-05-26T13:21:36Z",
+      "overall": "ok",
+      "ok": 16,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "generated_at": 1779801785,
+      "last_seen_utc": "2026-05-26T13:23:05Z",
+      "overall": "ok",
+      "ok": 16,
+      "warn": 0,
+      "fail": 0
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-04-22",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-04-23",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-04-24",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-04-25",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-04-26",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-04-27",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-04-28",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-04-29",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-04-30",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-01",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-02",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-03",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-04",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-05",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-06",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-07",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-08",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-09",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-10",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-11",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-12",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-13",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-14",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-15",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-16",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-17",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-18",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-19",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-20",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-21",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-22",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-23",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-24",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-25",
+      "status": "empty",
+      "samples": 0,
+      "ok_samples": 0,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 0
+    },
+    {
+      "date": "2026-05-26",
+      "status": "ok",
+      "samples": 2,
+      "ok_samples": 2,
+      "warn_samples": 0,
+      "fail_samples": 0,
+      "uptime_pct": 100
+    }
+  ]
+}
