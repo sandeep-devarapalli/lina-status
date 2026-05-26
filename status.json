@@ -1,0 +1,117 @@
+{
+  "generated_at": 1779788857,
+  "generated": "2026-05-26 15:17:37",
+  "overall": "ok",
+  "ok": 15,
+  "warn": 0,
+  "fail": 0,
+  "last_seen_utc": "2026-05-26T09:47:37Z",
+  "stale_after_minutes": 20,
+  "components": [
+    {
+      "name": "openai-key",
+      "label": "LLM credential",
+      "status": "ok",
+      "detail": "LLM access is configured for local orchestration."
+    },
+    {
+      "name": "lina-hq-binding",
+      "label": "Lina HQ reply path",
+      "status": "ok",
+      "detail": "Lina HQ direct reply path is configured."
+    },
+    {
+      "name": "docker-compose",
+      "label": "Docker service",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "mcp-health",
+      "label": "MCP health endpoint",
+      "status": "ok",
+      "detail": "Local health endpoint returned OK."
+    },
+    {
+      "name": "messages-db",
+      "label": "Message database",
+      "status": "ok",
+      "detail": "Integrity check passed."
+    },
+    {
+      "name": "lina-control-db",
+      "label": "Control database",
+      "status": "ok",
+      "detail": "Integrity check passed."
+    },
+    {
+      "name": "lina-control-schema",
+      "label": "Control schema",
+      "status": "ok",
+      "detail": "Required tables are present."
+    },
+    {
+      "name": "lina-hq-trigger",
+      "label": "Lina HQ trigger",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "lina-hq-trigger-port",
+      "label": "Trigger listener",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "lina-watch-hq",
+      "label": "Background watcher",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "lina-daily-digest",
+      "label": "Daily digest",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "lina-db-backup",
+      "label": "DB backup job",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "db-backup-freshness",
+      "label": "DB backup freshness",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "lina-status-publish",
+      "label": "Status publisher",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "webhook-registration",
+      "label": "Webhook registration",
+      "status": "ok",
+      "detail": "Message webhook is registered."
+    }
+  ],
+  "public_guardrails": [
+    "public status metadata only",
+    "no WhatsApp message contents",
+    "no chat names or WhatsApp JIDs",
+    "no API keys, MCP keys, or local filesystem paths"
+  ],
+  "source": "local Lina/OpenFang watchdog",
+  "sensitive_omitted": [
+    "chat identifiers",
+    "message contents",
+    "credentials",
+    "local file paths",
+    "webhook URLs"
+  ],
+  "no_whatsapp_action": true
+}
