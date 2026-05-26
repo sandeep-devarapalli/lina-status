@@ -1,0 +1,84 @@
+name: Check Lina status freshness
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lina-status-freshness
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      MAX_AGE_MINUTES: "30"
+      FAIL_ON_NON_OK: "true"
+    steps:
+      - name: Check out status site
+        uses: actions/checkout@v4
+
+      - name: Validate status.json
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          import sys
+          from pathlib import Path
+
+          status_path = Path("status.json")
+          if not status_path.exists():
+              raise SystemExit("status.json is missing")
+
+          status = json.loads(status_path.read_text())
+          last_seen_raw = status.get("last_seen_utc", "")
+          if not last_seen_raw:
+              raise SystemExit("status.json does not include last_seen_utc")
+
+          last_seen = dt.datetime.fromisoformat(last_seen_raw.replace("Z", "+00:00"))
+          now = dt.datetime.now(dt.timezone.utc)
+          age = now - last_seen
+          age_minutes = age.total_seconds() / 60
+
+          json_stale_after = int(status.get("stale_after_minutes") or 0)
+          max_age_minutes = int(os.environ.get("MAX_AGE_MINUTES", "30"))
+          fail_after = max(json_stale_after, max_age_minutes)
+          overall = str(status.get("overall", "unknown")).lower()
+
+          summary = Path(os.environ.get("GITHUB_STEP_SUMMARY", ""))
+          if summary:
+              summary.write_text(
+                  "\n".join(
+                      [
+                          "## Lina status freshness",
+                          "",
+                          f"- Overall: `{overall}`",
+                          f"- Last seen UTC: `{last_seen_raw}`",
+                          f"- Age minutes: `{age_minutes:.1f}`",
+                          f"- Fail after minutes: `{fail_after}`",
+                          f"- Checks: `{status.get('ok', 0)} ok`, `{status.get('warn', 0)} warn`, `{status.get('fail', 0)} fail`",
+                          "",
+                      ]
+                  )
+              )
+
+          failures = []
+          if age_minutes > fail_after:
+              failures.append(f"status is stale: age={age_minutes:.1f}m fail_after={fail_after}m")
+          if os.environ.get("FAIL_ON_NON_OK", "true").lower() == "true" and overall != "ok":
+              failures.append(f"overall status is {overall}")
+
+          if failures:
+              for failure in failures:
+                  print(failure, file=sys.stderr)
+              raise SystemExit(1)
+
+          print(f"Lina status is fresh: overall={overall} age={age_minutes:.1f}m")
+          PY
