@@ -1,11 +1,11 @@
 {
-  "generated_at": 1780259589,
-  "generated": "2026-06-01 02:03:09",
-  "overall": "ok",
-  "ok": 16,
+  "generated_at": 1780271591,
+  "generated": "2026-06-01 05:23:11",
+  "overall": "fail",
+  "ok": 15,
   "warn": 0,
-  "fail": 0,
-  "last_seen_utc": "2026-05-31T20:33:09Z",
+  "fail": 1,
+  "last_seen_utc": "2026-05-31T23:53:11Z",
   "stale_after_minutes": 20,
   "components": [
     {
@@ -23,8 +23,8 @@
     {
       "name": "docker-compose",
       "label": "Docker service",
-      "status": "ok",
-      "detail": "Healthy."
+      "status": "fail",
+      "detail": "docker compose ps failed: docker timed out"
     },
     {
       "name": "mcp-health",
