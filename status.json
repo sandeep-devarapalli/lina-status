@@ -1,11 +1,11 @@
 {
-  "generated_at": 1780312036,
-  "generated": "2026-06-01 16:37:16",
+  "generated_at": 1780314395,
+  "generated": "2026-06-01 17:16:35",
   "overall": "ok",
   "ok": 16,
   "warn": 0,
   "fail": 0,
-  "last_seen_utc": "2026-06-01T11:07:16Z",
+  "last_seen_utc": "2026-06-01T11:46:35Z",
   "stale_after_minutes": 20,
   "components": [
     {
