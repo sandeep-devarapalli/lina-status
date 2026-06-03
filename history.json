@@ -1,6 +1,6 @@
 {
-  "updated_at": 1780521368,
-  "updated": "2026-06-04 02:46:08",
+  "updated_at": 1780521971,
+  "updated": "2026-06-04 02:56:11",
   "window_days": 90,
   "samples": [
     {
@@ -6762,6 +6762,14 @@
       "ok": 16,
       "warn": 0,
       "fail": 0
+    },
+    {
+      "generated_at": 1780521971,
+      "last_seen_utc": "2026-06-03T21:26:11Z",
+      "overall": "ok",
+      "ok": 16,
+      "warn": 0,
+      "fail": 0
     }
   ],
   "days": [
@@ -7074,8 +7082,8 @@
     {
       "date": "2026-06-03",
       "status": "ok",
-      "samples": 109,
-      "ok_samples": 109,
+      "samples": 110,
+      "ok_samples": 110,
       "warn_samples": 0,
       "fail_samples": 0,
       "uptime_pct": 100
