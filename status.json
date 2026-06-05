@@ -1,11 +1,11 @@
 {
-  "generated_at": 1780676465,
-  "generated": "2026-06-05 21:51:05",
-  "overall": "warn",
-  "ok": 15,
-  "warn": 1,
+  "generated_at": 1780677067,
+  "generated": "2026-06-05 22:01:07",
+  "overall": "ok",
+  "ok": 16,
+  "warn": 0,
   "fail": 0,
-  "last_seen_utc": "2026-06-05T16:21:05Z",
+  "last_seen_utc": "2026-06-05T16:31:07Z",
   "stale_after_minutes": 20,
   "components": [
     {
@@ -83,8 +83,8 @@
     {
       "name": "db-backup-freshness",
       "label": "DB backup freshness",
-      "status": "warn",
-      "detail": "latest backup 20260604-183431 is 27h16m0s old"
+      "status": "ok",
+      "detail": "Healthy."
     },
     {
       "name": "lina-status-publish",
