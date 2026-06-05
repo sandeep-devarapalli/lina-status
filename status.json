@@ -1,11 +1,11 @@
 {
-  "generated_at": 1780675259,
-  "generated": "2026-06-05 21:30:59",
+  "generated_at": 1780675862,
+  "generated": "2026-06-05 21:41:02",
   "overall": "warn",
   "ok": 15,
   "warn": 1,
   "fail": 0,
-  "last_seen_utc": "2026-06-05T16:00:59Z",
+  "last_seen_utc": "2026-06-05T16:11:02Z",
   "stale_after_minutes": 20,
   "components": [
     {
@@ -84,7 +84,7 @@
       "name": "db-backup-freshness",
       "label": "DB backup freshness",
       "status": "warn",
-      "detail": "latest backup 20260604-183431 is 26h56m0s old"
+      "detail": "latest backup 20260604-183431 is 27h6m0s old"
     },
     {
       "name": "lina-status-publish",
