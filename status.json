@@ -1,11 +1,11 @@
 {
-  "generated_at": 1780677670,
-  "generated": "2026-06-05 22:11:10",
+  "generated_at": 1780678272,
+  "generated": "2026-06-05 22:21:12",
   "overall": "ok",
-  "ok": 16,
+  "ok": 19,
   "warn": 0,
   "fail": 0,
-  "last_seen_utc": "2026-06-05T16:41:10Z",
+  "last_seen_utc": "2026-06-05T16:51:12Z",
   "stale_after_minutes": 20,
   "components": [
     {
@@ -85,6 +85,24 @@
       "label": "DB backup freshness",
       "status": "ok",
       "detail": "Healthy."
+    },
+    {
+      "name": "lina-protected-backup",
+      "label": "Protected backup job",
+      "status": "ok",
+      "detail": "Healthy."
+    },
+    {
+      "name": "protected-backup-freshness",
+      "label": "Protected backup freshness",
+      "status": "ok",
+      "detail": "Latest protected backup verified."
+    },
+    {
+      "name": "protected-backup-mirror",
+      "label": "Protected backup mirror",
+      "status": "ok",
+      "detail": "Latest protected backup verified."
     },
     {
       "name": "lina-status-publish",
